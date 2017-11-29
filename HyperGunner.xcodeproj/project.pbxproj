@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5063A7A1FCE8AC1009836E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5063A791FCE8AC1009836E7 /* AppDelegate.swift */; };
+		F5063A7C1FCE8AC1009836E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5063A7B1FCE8AC1009836E7 /* ViewController.swift */; };
+		F5063A7F1FCE8AC1009836E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5063A7D1FCE8AC1009836E7 /* Main.storyboard */; };
+		F5063A811FCE8AC1009836E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5063A801FCE8AC1009836E7 /* Assets.xcassets */; };
+		F5063A841FCE8AC1009836E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5063A821FCE8AC1009836E7 /* LaunchScreen.storyboard */; };
+		F5063A8C1FCE8B45009836E7 /* ld in Resources */ = {isa = PBXBuildFile; fileRef = F5063A8B1FCE8B45009836E7 /* ld */; };
+		F5063AC11FCE9346009836E7 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5063AA11FCE9322009836E7 /* AVOSCloud.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5063AA01FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419861A5A791300C5C6C4;
+			remoteInfo = "AVOSCloud-iOS";
+		};
+		F5063AA21FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419911A5A791300C5C6C4;
+			remoteInfo = "AVOSCloud-iOSTests";
+		};
+		F5063AA41FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 70CA7F681BDE2DC3000A3B21;
+			remoteInfo = "AVOSCloud-macOS";
+		};
+		F5063AA61FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 70F315321BDE503B00D691B3;
+			remoteInfo = "AVOSCloud-macOSTests";
+		};
+		F5063AA81FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83D8CF551C17DAF50094279D;
+			remoteInfo = "AVOSCloud-tvOS";
+		};
+		F5063AAA1FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8320F95C1C1918C60024B45E;
+			remoteInfo = "AVOSCloud-watchOS";
+		};
+		F5063AAC1FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419C31A5A796000C5C6C4;
+			remoteInfo = "AVOSCloudIM-iOS";
+		};
+		F5063AAE1FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419CD1A5A796000C5C6C4;
+			remoteInfo = "AVOSCloudIM-iOSTests";
+		};
+		F5063AB01FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 704F3B6E1BE0D0180033245C;
+			remoteInfo = "AVOSCloudIM-macOS";
+		};
+		F5063AB21FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 704F3B771BE0D0180033245C;
+			remoteInfo = "AVOSCloudIM-macOSTests";
+		};
+		F5063AB41FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83B0E5911F2839FB00EE1A75;
+			remoteInfo = AVOSCloudIMGroupChat;
+		};
+		F5063AB61FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C255D261AE9F815008A6FFC;
+			remoteInfo = "AVOSCloudCrashReporting-iOS";
+		};
+		F5063AB81FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 838CE31B1EC97E6E00B24F5B;
+			remoteInfo = "AVOSCloudLiveQuery-iOS";
+		};
+		F5063ABA1FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 838CE3231EC97E6E00B24F5B;
+			remoteInfo = "AVOSCloudLiveQuery-iOSTests";
+		};
+		F5063ABC1FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 838CE3401EC980DE00B24F5B;
+			remoteInfo = "AVOSCloudLiveQuery-macOS";
+		};
+		F5063ABE1FCE9322009836E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 838CE34D1EC980E000B24F5B;
+			remoteInfo = "AVOSCloudLiveQuery-macOSTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5063A761FCE8AC1009836E7 /* HyperGunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperGunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5063A791FCE8AC1009836E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5063A7B1FCE8AC1009836E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5063A7E1FCE8AC1009836E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5063A801FCE8AC1009836E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5063A831FCE8AC1009836E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5063A851FCE8AC1009836E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5063A8B1FCE8B45009836E7 /* ld */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ld; sourceTree = "<group>"; };
+		F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AVOS.xcodeproj; path = "objc-sdk/AVOS/AVOS.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5063A731FCE8AC1009836E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5063AC11FCE9346009836E7 /* AVOSCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5063A6D1FCE8AC1009836E7 = {
+			isa = PBXGroup;
+			children = (
+				F5063A781FCE8AC1009836E7 /* HyperGunner */,
+				F5063A771FCE8AC1009836E7 /* Products */,
+				F5063AC01FCE9346009836E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5063A771FCE8AC1009836E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5063A761FCE8AC1009836E7 /* HyperGunner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5063A781FCE8AC1009836E7 /* HyperGunner */ = {
+			isa = PBXGroup;
+			children = (
+				F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */,
+				F5063A8B1FCE8B45009836E7 /* ld */,
+				F5063A791FCE8AC1009836E7 /* AppDelegate.swift */,
+				F5063A7B1FCE8AC1009836E7 /* ViewController.swift */,
+				F5063A7D1FCE8AC1009836E7 /* Main.storyboard */,
+				F5063A801FCE8AC1009836E7 /* Assets.xcassets */,
+				F5063A821FCE8AC1009836E7 /* LaunchScreen.storyboard */,
+				F5063A851FCE8AC1009836E7 /* Info.plist */,
+			);
+			path = HyperGunner;
+			sourceTree = "<group>";
+		};
+		F5063A8E1FCE9322009836E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5063AA11FCE9322009836E7 /* AVOSCloud.framework */,
+				F5063AA31FCE9322009836E7 /* AVOSCloud-iOSTests.xctest */,
+				F5063AA51FCE9322009836E7 /* AVOSCloud.framework */,
+				F5063AA71FCE9322009836E7 /* AVOSCloud-macOSTests.xctest */,
+				F5063AA91FCE9322009836E7 /* AVOSCloud.framework */,
+				F5063AAB1FCE9322009836E7 /* AVOSCloud.framework */,
+				F5063AAD1FCE9322009836E7 /* AVOSCloudIM.framework */,
+				F5063AAF1FCE9322009836E7 /* AVOSCloudIM-iOSTests.xctest */,
+				F5063AB11FCE9322009836E7 /* AVOSCloudIM.framework */,
+				F5063AB31FCE9322009836E7 /* AVOSCloudIM-macOSTests.xctest */,
+				F5063AB51FCE9322009836E7 /* AVOSCloudIMGroupChat.framework */,
+				F5063AB71FCE9322009836E7 /* AVOSCloudCrashReporting.framework */,
+				F5063AB91FCE9322009836E7 /* AVOSCloudLiveQuery.framework */,
+				F5063ABB1FCE9322009836E7 /* AVOSCloudLiveQuery-iOSTests.xctest */,
+				F5063ABD1FCE9322009836E7 /* AVOSCloudLiveQuery.framework */,
+				F5063ABF1FCE9322009836E7 /* AVOSCloudLiveQuery-macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5063AC01FCE9346009836E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5063A751FCE8AC1009836E7 /* HyperGunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5063A881FCE8AC1009836E7 /* Build configuration list for PBXNativeTarget "HyperGunner" */;
+			buildPhases = (
+				F5063A721FCE8AC1009836E7 /* Sources */,
+				F5063A731FCE8AC1009836E7 /* Frameworks */,
+				F5063A741FCE8AC1009836E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperGunner;
+			productName = HyperGunner;
+			productReference = F5063A761FCE8AC1009836E7 /* HyperGunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5063A6E1FCE8AC1009836E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Dennis Du";
+				TargetAttributes = {
+					F5063A751FCE8AC1009836E7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F5063A711FCE8AC1009836E7 /* Build configuration list for PBXProject "HyperGunner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5063A6D1FCE8AC1009836E7;
+			productRefGroup = F5063A771FCE8AC1009836E7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F5063A8E1FCE9322009836E7 /* Products */;
+					ProjectRef = F5063A8D1FCE9322009836E7 /* AVOS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F5063A751FCE8AC1009836E7 /* HyperGunner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F5063AA11FCE9322009836E7 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = F5063AA01FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AA31FCE9322009836E7 /* AVOSCloud-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloud-iOSTests.xctest";
+			remoteRef = F5063AA21FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AA51FCE9322009836E7 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = F5063AA41FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AA71FCE9322009836E7 /* AVOSCloud-macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloud-macOSTests.xctest";
+			remoteRef = F5063AA61FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AA91FCE9322009836E7 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = F5063AA81FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AAB1FCE9322009836E7 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = F5063AAA1FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AAD1FCE9322009836E7 /* AVOSCloudIM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudIM.framework;
+			remoteRef = F5063AAC1FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AAF1FCE9322009836E7 /* AVOSCloudIM-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloudIM-iOSTests.xctest";
+			remoteRef = F5063AAE1FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AB11FCE9322009836E7 /* AVOSCloudIM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudIM.framework;
+			remoteRef = F5063AB01FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AB31FCE9322009836E7 /* AVOSCloudIM-macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloudIM-macOSTests.xctest";
+			remoteRef = F5063AB21FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AB51FCE9322009836E7 /* AVOSCloudIMGroupChat.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudIMGroupChat.framework;
+			remoteRef = F5063AB41FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AB71FCE9322009836E7 /* AVOSCloudCrashReporting.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudCrashReporting.framework;
+			remoteRef = F5063AB61FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063AB91FCE9322009836E7 /* AVOSCloudLiveQuery.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudLiveQuery.framework;
+			remoteRef = F5063AB81FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063ABB1FCE9322009836E7 /* AVOSCloudLiveQuery-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloudLiveQuery-iOSTests.xctest";
+			remoteRef = F5063ABA1FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063ABD1FCE9322009836E7 /* AVOSCloudLiveQuery.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudLiveQuery.framework;
+			remoteRef = F5063ABC1FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5063ABF1FCE9322009836E7 /* AVOSCloudLiveQuery-macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloudLiveQuery-macOSTests.xctest";
+			remoteRef = F5063ABE1FCE9322009836E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5063A741FCE8AC1009836E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5063A841FCE8AC1009836E7 /* LaunchScreen.storyboard in Resources */,
+				F5063A811FCE8AC1009836E7 /* Assets.xcassets in Resources */,
+				F5063A8C1FCE8B45009836E7 /* ld in Resources */,
+				F5063A7F1FCE8AC1009836E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5063A721FCE8AC1009836E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5063A7C1FCE8AC1009836E7 /* ViewController.swift in Sources */,
+				F5063A7A1FCE8AC1009836E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5063A7D1FCE8AC1009836E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5063A7E1FCE8AC1009836E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5063A821FCE8AC1009836E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5063A831FCE8AC1009836E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5063A861FCE8AC1009836E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5063A871FCE8AC1009836E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5063A891FCE8AC1009836E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U759LQKVM9;
+				INFOPLIST_FILE = HyperGunner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = high.gun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5063A8A1FCE8AC1009836E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U759LQKVM9;
+				INFOPLIST_FILE = HyperGunner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = high.gun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5063A711FCE8AC1009836E7 /* Build configuration list for PBXProject "HyperGunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5063A861FCE8AC1009836E7 /* Debug */,
+				F5063A871FCE8AC1009836E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5063A881FCE8AC1009836E7 /* Build configuration list for PBXNativeTarget "HyperGunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5063A891FCE8AC1009836E7 /* Debug */,
+				F5063A8A1FCE8AC1009836E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5063A6E1FCE8AC1009836E7 /* Project object */;
+}
